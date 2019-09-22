@@ -17,6 +17,7 @@ int main(void)
     LinkedListAppend(l,4);
     LinkedListAppend(l,5);
     LinkedListAppend(l,6);
+    LinkedListShow(l);
     printf("%d\n", LinkedListSum(l));
 }
 
